@@ -537,6 +537,7 @@ pre {
   float: left;
   padding-right: 0.625rem;
   padding-left: 0.625rem; }
+
   @media print, screen and (min-width: 40em) {
     .column, .columns {
       padding-right: 0.9375rem;
@@ -2247,16 +2248,17 @@ select {
     padding-bottom: 0.5rem;
     padding-left: 0.5rem; }
   .callout.large {
-      background-image:url(bg.jpg);
-    background-attachment: fixed;
-   background-repeat:no-repeat;
-  background-size:100%;
-    margin-top:32rem;
+    margin-top:35rem;
     padding-top: 3rem;
     padding-right: 3rem;
     padding-bottom: 3rem;
     padding-left: 3rem; }
-
+  .callout.large2 {
+    margin-top:3.7rem;
+    padding-top: 3rem;
+    padding-right: 3rem;
+   padding-bottom: 3rem;
+    padding-left: 3rem; }
 
 .close-button {
   position: absolute;
