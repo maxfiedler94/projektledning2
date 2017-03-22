@@ -1,16 +1,16 @@
-@media only screen and (min-width: 400px) {
-    body { 
-        background-image: url(bg.jpg); 
-    }
-}
-
 body {
   background-image:url(bg.jpg);
   background-attachment: fixed;
   background-repeat:no-repeat;
+  background-size:contain;
   background-size:100%;
   width: 100%;
   height: auto;
+}
+@media only screen and (min-width: 400px) {
+    body { 
+        background-image: url(bg.jpg); 
+    }
 }
 
 img.logo {
