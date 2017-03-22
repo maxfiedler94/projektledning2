@@ -1,7 +1,6 @@
 body {
 
-  background-image: url(bg.jpg);
-  /*background-position: center;*/
+  background-image: url(../resource/bg.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size:100%;
@@ -22,10 +21,6 @@ img.logo {
 	width:120px;
 	height:60px;
 }
-/*.full-width {
-  max-width: 1400px;
-}*/
-
 .footer {
   background-color: #1779ba;
   padding: 2rem 4rem;
